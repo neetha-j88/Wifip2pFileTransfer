@@ -5,7 +5,8 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.example.neethapradeep.wifip2pfiletransfer"
+        //com.example.neethapradeep.wifip2pfiletrans
+        applicationId "wifip2pfiletrans"
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 1
