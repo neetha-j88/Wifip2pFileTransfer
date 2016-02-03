@@ -6,6 +6,7 @@ import android.net.wifi.p2p.WifiP2pManager.PeerListListener;
 import android.net.wifi.p2p.WifiP2pManager.Channel;
 import android.content.Intent;
 import android.content.Context;
+import android.widget.Button;
 
 /**
  * Created by NeethaPradeep on 2/2/16.
@@ -15,6 +16,7 @@ public class WiFiDirectBroadcastReceiver extends BroadcastReceiver {
     private Channel mChannel;
     private WifiFileTransfer mActivity;
     PeerListListener myPeerListListener;
+
 
     public WiFiDirectBroadcastReceiver(WifiP2pManager manager, Channel channel,
                                        WifiFileTransfer activity) {
